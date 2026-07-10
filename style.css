@@ -1164,6 +1164,16 @@ button { cursor: none; }
     gap: 12px;
 }
 
+.project-link-private {
+    color: var(--text-muted, #888);
+    cursor: default;
+}
+
+.project-link-private:hover {
+    color: var(--text-muted, #888);
+    gap: 8px;
+}
+
 /* ===== Experience / Timeline ===== */
 .exp-company {
     text-align: center;
